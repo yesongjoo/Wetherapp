@@ -1,12 +1,13 @@
 import React from "react";
 import "./WeatherInfo.css";
 
-const WeatherInfo = () => {
+const WeatherInfo = ({ weather }) => {
+  console.log("weather:", weather);
   return (
     <div className="card">
-      <p className="cityname">Toronto</p>
-      <p className="temp">5.1 &#8451; / 22.82 &#8457;</p>
-      <p className="weatherdiscription">Clear sky</p>
+      <p className="cityname">{weather?.name}</p>
+      <p className="temp">{weather?.main.temp} &#8451; / 22.82 &#8457;</p>
+      <p className="weatherdiscription">{weather?.weather[0].description}</p>
     </div>
   );
 };
