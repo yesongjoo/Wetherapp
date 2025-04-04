@@ -1,0 +1,24 @@
+.card {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.69);
+  padding: 80px 100px;
+  border-radius: 20px;
+}
+
+.cityname {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(61, 61, 61);
+}
+
+.temp {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(228, 187, 5);
+}
+
+.weatherdiscription {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(74, 64, 163);
+}

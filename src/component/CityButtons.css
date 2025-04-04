@@ -1,0 +1,23 @@
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+
+  background-color: rgba(255, 255, 255, 0.69);
+  padding: 20px 150px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.city-button {
+  background-color: rgb(63, 131, 225);
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  color: white;
+}
+
+.city-button:hover {
+  background-color: rgb(47, 99, 171);
+}
