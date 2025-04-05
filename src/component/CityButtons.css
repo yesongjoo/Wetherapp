@@ -21,3 +21,25 @@
 .city-button:hover {
   background-color: rgb(47, 99, 171);
 }
+
+@media screen and (max-width: 950px) {
+  .buttons {
+    padding: 20px 80px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .buttons {
+    padding: 20px 30px;
+  }
+}
